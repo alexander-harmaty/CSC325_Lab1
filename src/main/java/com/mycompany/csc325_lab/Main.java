@@ -11,7 +11,9 @@ package com.mycompany.csc325_lab;
  */
 public class Main {
     public static void main(String[] args) {
+        Student std = new Student();
         
-        System.out.println("test");
+        std.setfName("Alex Harmaty");
+        System.out.println(std.toString());
     }
 }
