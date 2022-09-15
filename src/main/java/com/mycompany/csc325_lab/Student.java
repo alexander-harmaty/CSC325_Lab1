@@ -9,7 +9,7 @@ package com.mycompany.csc325_lab;
  *
  * @author soblab
  */
-public class Student {
+public class Student implements Person{
 
     public String getfName() {
         return fName;
@@ -37,4 +37,9 @@ public class Student {
     String fName;
     String lName;
     double gpa;
+
+    @Override
+    public String setAddress() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
