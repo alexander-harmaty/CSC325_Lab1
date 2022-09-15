@@ -10,5 +10,7 @@ package com.mycompany.csc325_lab;
  * @author soblab
  */
 public class Student {
-    
+    String fName;
+    String lName;
+    double gpa;
 }
